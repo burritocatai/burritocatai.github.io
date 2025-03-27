@@ -1,0 +1,8 @@
+{
+    "image":"mcr.microsoft.com/devcontainers/jekyll",
+    "features": {
+        "ghcr.io/devcontainers/features/go:1": {}
+    },
+    "postCreateCommand": "go install github.com/stefanlogue/meteor@latest"
+
+}
